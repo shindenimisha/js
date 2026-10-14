@@ -31,7 +31,7 @@ const obj2 = { 3: "c", 4: " b" }
 
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({} , obj1 , obj2)
-const obj3 =  { ...obj1, ...obj2}
+const obj3 = { ...obj1, ...obj2 }
 // console.log(obj3)
 
 
@@ -46,9 +46,9 @@ console.log(tuser.hasOwnProperty('logged')
 const course = {
     name: "hindi",
     price: "999 ",
-    insrtuctor : "hitesh"
-    
+    insrtuctor: "hitesh"
+
 }
-const { insrtuctor : ins } = course
+const { insrtuctor: ins } = course
 console.log(ins)
 
