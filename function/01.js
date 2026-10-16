@@ -1,41 +1,35 @@
-//  function 
+// function one() {
+//     const username = " nimisha"
 
-// function n() {
-//     console.log(1)
-//     console.log(2)
-    
+//     function two() {
+//         const website = " youtube"
+//         console.log( username)
+//     }
+//     // console.log(website)
+
+//     two()
 // }
-// n()
+// one()
 
-// function sum(num1, num2) {
-//     console.log( num1+num2)
+
+// if (true) {
+//     const username = " nimisha "
+//     if (username === "nimisha") {
+//         const website = " youtube"
+//         console.log( username + website)
+//     }
+//     // console.log ( website)
 // }
-// sum(5, 7)
-// sum(3, "4")
-// sum("5", 6)
-// sum(-7, 6)
+// console.log( username )
 
+// // ++++++++++++++++++++++++++++++++++++++
+function addone(num) {
+    return num + 1
+}
+addone(5)
 
-function sum(num1 , num) {
-    let result = num1 + num
-    return result // or we can do return num1 + num
+const addtwo = function (num) {
+    return num + 2
 }
 
-const result = sum(5, 6)
-console.log("result", result)
-
-
-function login(usernsme) {
-    if(usernsme === undefined) {
-        console.log("please entre ")
-    }
-    return `${ usernsme} jsut logged in`
-}
-
-console.log(login())
-
-
-function price(val1, val2, ...num1) {
-    return num1
-}
-console.log(price(200,2,400,700))
+addtwo(5)
